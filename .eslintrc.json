@@ -3,9 +3,10 @@
     "next/core-web-vitals",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier"
+    "prettier",
+    "plugin:tailwindcss/recommended"
   ],
-  "plugins": ["simple-import-sort", "import", "unused-imports"],
+  "plugins": ["simple-import-sort", "import", "unused-imports", "tailwindcss"],
   "rules": {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
@@ -13,5 +14,10 @@
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
     "unused-imports/no-unused-imports": "error"
+  },
+  "settings": {
+    "tailwindcss": {
+      "groupByResponsive": true
+    }
   }
 }

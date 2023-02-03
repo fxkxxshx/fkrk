@@ -1,6 +1,9 @@
 {
   "files.insertFinalNewline": true,
   "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
