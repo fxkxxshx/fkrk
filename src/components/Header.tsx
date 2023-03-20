@@ -6,7 +6,7 @@ const Header: React.FC = () => {
       <h1>
         <Image
           src='/img/title.jpg'
-          alt='fkrk ふかいしのきろく'
+          alt='FKRK ふかいしのきろく'
           width={188}
           height={720}
         />
