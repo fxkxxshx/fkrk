@@ -13,8 +13,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        notoSansJp: ['Noto Sans JP'],
-        ibmPlexSans: ['IBM Plex Sans'],
+        notoSansJp: ['Noto Sans JP', 'sans-serif'],
+        ibmPlexSans: ['IBM Plex Sans', 'sans-serif'],
       },
     },
   },
