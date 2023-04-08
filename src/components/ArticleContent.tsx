@@ -18,7 +18,7 @@ const ArticleContent: React.FC<Props> = ({ articleContent, index }) => {
         <span className='block h-[3px] bg-black lg:h-[4px]'></span>
       </div>
       <div className='ml-[20px] lg:ml-[50px]'>
-        <h2 className='bg-black px-[8px] py-[3px] text-[19px] font-bold leading-[1.4] tracking-[0.04em] text-white lg:inline-block lg:px-[10px] lg:py-[4px] lg:text-[24px]'>
+        <h2 className='inline-block bg-black px-[8px] py-[3px] text-[19px] font-bold leading-[1.4] tracking-[0.04em] text-white lg:px-[10px] lg:py-[4px] lg:text-[24px]'>
           {articleContent.title}
         </h2>
         <ul className='mt-[10px] flex flex-wrap gap-[8px] lg:mt-[14px] lg:gap-[10px]'>
