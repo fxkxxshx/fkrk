@@ -22,7 +22,7 @@ const Article: React.FC<Props> = ({ article }) => {
           ))}
         </ol>
         <p className='mt-[47px] text-right font-ibmPlexSans text-[16px] leading-[1] tracking-[0.1em] lg:mt-[98px] lg:text-[24px]'>
-          &copy;2023 fkxsh
+          &copy;2024 fkxsh
         </p>
       </div>
     </article>
