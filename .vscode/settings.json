@@ -23,8 +23,8 @@
     "typescriptreact"
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.organizeImports": false
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
   },
   "javascript.format.enable": false,
   "typescript.format.enable": false
