@@ -17,7 +17,7 @@ const Article: React.FC<Props> = ({ article }) => {
             <ArticleContent
               articleContent={articleContent}
               index={index}
-              key={articleContent.fieldId}
+              key={articleContent.title}
             />
           ))}
         </ol>

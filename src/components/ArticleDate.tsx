@@ -11,13 +11,13 @@ const ArticleDate: React.FC<Props> = ({ articleDate }) => {
       dateTime={dayjs(articleDate).format('YYYY-MM-DD')}
     >
       <span className='flex justify-between lg:contents'>
-        {Array.from(dayjs(articleDate).format('YYYY/')).map((letter) => (
-          <span key={letter}>{letter}</span>
+        {Array.from(dayjs(articleDate).format('YYYY/')).map((letter, index) => (
+          <span key={`${letter}${index}`}>{letter}</span>
         ))}
       </span>
       <span className='flex justify-between lg:contents'>
-        {Array.from(dayjs(articleDate).format('MM/DD')).map((letter) => (
-          <span key={letter}>{letter}</span>
+        {Array.from(dayjs(articleDate).format('MM/DD')).map((letter, index) => (
+          <span key={`${letter}${index}`}>{letter}</span>
         ))}
       </span>
     </time>
